@@ -7,7 +7,7 @@ var axios = require("axios").default;
 const app = express()
 // Requiring the config
 const config = require("./config");
-const port = config.port;
+const port = 4000;
 // Priting the config for debugging
 console.log(config);
 
